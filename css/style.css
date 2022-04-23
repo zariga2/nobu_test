@@ -1,0 +1,167 @@
+@charset "utf-8";
+body {
+  background-color: rgb(245, 245, 247);
+}
+.main hr {
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  border: none;
+  margin: 0px;
+}
+
+.header {
+  background-color: rgb(49, 49, 50, 0.98);
+  color: #d6d6d6;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+.header-list li {
+  list-style: none;
+  margin: 15px;
+}
+
+.header img {
+  width: 20px;
+  height: auto;
+}
+
+.header-list ul {
+  display: flex;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0px;
+}
+
+.main {
+}
+
+.ad {
+  height: 90px;
+  text-align: center;
+}
+
+/*　padingが上に食い込むのなぜ？　*/
+.ad a {
+}
+
+.contents {
+}
+
+.buy-link13 {
+  text-align: center;
+}
+
+.buy-link13 a {
+  padding: 30px;
+}
+
+.buy-iPhone13 {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  text-align: center;
+}
+
+.iPhon13Pro {
+  text-align: center;
+}
+
+.iPhone13Pro-img {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.iPhon13SE {
+  text-align: center;
+}
+
+.iPadair-img {
+  position: relative;
+  width: 100%;
+}
+
+/*　％で位置を指定すると文字が消える　*/
+.iPadair-link {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+}
+.iPadair-link a {
+  color: blue;
+}
+
+.notes {
+  padding: 0px 16px;
+  border-bottom: solid 1px gray;
+  margin: 0 auto;
+  max-width: 980px;
+}
+.notes p {
+  padding: 0 0 0 40px;
+}
+
+/*　各画像の下の余白を消したいが出来ない。　*/
+.watch {
+  margin-bottom: 0px;
+}
+
+.footer-menu li {
+  list-style: none;
+}
+
+.footer-menu {
+  display: flex;
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+}
+
+.menu-item {
+  flex: 1;
+}
+
+.footer hr {
+}
+
+/*　個々から下は文字サイズ等の設定　*/
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 19px;
+}
+.buy-link13 {
+  font-size: 19px;
+}
+h5 {
+  font-size: 40px;
+}
+.iPhone13pro-link {
+  font-size: 19px;
+}
+.iPhone13SE-link {
+  font-size: 19px;
+}
+.iPadair-link {
+  font-size: 19px;
+}
+
+.notes {
+  font-size: 10px;
+}
+
+.footer-menu li {
+  font-size: 10px;
+  line-height: 25px;
+}
+
+.title {
+  font-weight: bold;
+}
